@@ -1,0 +1,8 @@
+.active {
+  color: black;
+  font-weight: 700;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}

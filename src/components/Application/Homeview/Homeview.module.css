@@ -1,0 +1,18 @@
+.homeview {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.homeview_title {
+  font-size: 66px;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 440px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}

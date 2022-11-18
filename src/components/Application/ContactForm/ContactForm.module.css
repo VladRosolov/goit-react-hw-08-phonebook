@@ -1,0 +1,106 @@
+.form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*
+.label {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+/* .input {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+  transition: border-color 250ms linear;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input:valid {
+  border: 2px solid rgb(1, 193, 33);
+  border-radius: 4px;
+}
+
+.input:invalid {
+  border: 2px solid rgb(255, 5, 5);
+  border-radius: 4px;
+} */
+/*
+.addButton {
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.addButton:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+    0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+} */
+
+.contactform {
+  padding-top: 50px;
+  /* color: blue; */
+}
+
+.contactform label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contactform button {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  text-align: center;
+  font-weight: 700;
+}
+/* .contactform button:hover {
+  background: #1872bd;
+} */
+
+.contactform_title {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contactform input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: border-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactform input:hover {
+  border-color: #2196f3;
+}

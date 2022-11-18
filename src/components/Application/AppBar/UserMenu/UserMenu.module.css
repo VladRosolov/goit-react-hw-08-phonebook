@@ -1,0 +1,27 @@
+.userMenu {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+/* .userMenu span {
+  margin: 0;
+  margin-right: 10px;
+} */
+
+.userMenu_btn {
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  margin-left: 80px;
+}
+
+.userMenu_btn:hover {
+  border: none;
+  background: #2196f3;
+  box-shadow: none;
+  color: black;
+}

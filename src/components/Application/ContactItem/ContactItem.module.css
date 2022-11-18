@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact_item {
+  display: flex;
+  font-size: 22px;
+}
+
+.contact_name {
+  width: 100px;
+  margin-right: 30px;
+}
+
+.contact_number {
+  width: 200px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.deleteButton {
+  padding: 4px 16px;
+  margin: 0;
+  height: 36px;
+}

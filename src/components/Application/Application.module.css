@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+}
+
+.container_path {
+  width: 50vw;
+}
+
+.container_path:first-child {
+  border-right: 1px solid #2196f3;
+  height: 91vh;
+}
+
+.contactlist_title {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.contactList {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

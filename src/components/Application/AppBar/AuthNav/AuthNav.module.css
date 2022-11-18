@@ -1,0 +1,8 @@
+.authNav {
+  display: flex;
+  margin-left: auto;
+}
+.active {
+  color: black;
+  font-weight: 700;
+}

@@ -1,9 +1,9 @@
-import ContactForm from './ContactForm/ContactForm';
-import ContactList from './ContactList/ContactList';
-import Filter from './Filter/Filter';
-import css from './Application.module.css';
+import ContactForm from '../ContactForm/ContactForm';
+import ContactList from '../ContactList/ContactList';
+import Filter from '../Filter/Filter';
+import css from './ContactsView.module.css';
 
-const Application = () => {
+const ContactsView = () => {
   return (
     <div className={css.contacts}>
       <div className={css.container_path}>
@@ -20,4 +20,4 @@ const Application = () => {
   );
 };
 
-export default Application;
+export default ContactsView;

@@ -6,9 +6,10 @@ import UserMenu from './UserMenu/UserMenu';
 import { useSelector } from 'react-redux';
 import { getLoggedIn } from 'redux/auth/authOperation';
 import Container from '../Container/Container';
-import { Outlet } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import { Suspense } from 'react';
 import { Loader } from '../Loader/Loader';
+import ContactsView from '../ContactsView/ContactsView';
 
 export default function AppBar() {
   const isLoggedIn = useSelector(getLoggedIn);
@@ -18,7 +19,18 @@ export default function AppBar() {
         <Container>
           <div className={css.header_box}>
             {/* <Navigation /> */}
-            {isLoggedIn ? <h4>Phonebook</h4> : <Navigation />}
+            {isLoggedIn ? (
+              <NavLink
+                to="/contacts"
+                className={({ isActive }) =>
+                  isActive ? css.active : undefined
+                }
+              >
+                Phonebook
+              </NavLink>
+            ) : (
+              <Navigation />
+            )}
             {isLoggedIn ? <UserMenu /> : <AuthNav />}
           </div>
         </Container>

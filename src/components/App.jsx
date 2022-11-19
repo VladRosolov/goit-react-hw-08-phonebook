@@ -19,7 +19,9 @@ const RegisterForm = lazy(() =>
 const LoginForm = lazy(() =>
   import('../components/Application/LoginForm/LoginForm')
 );
-const Application = lazy(() => import('../components/Application/Application'));
+const ContactsView = lazy(() =>
+  import('./Application/ContactsView/ContactsView')
+);
 
 const PageNotFound = lazy(() =>
   import('../components/Application/PagNotFound/PageNotFound')
@@ -60,7 +62,7 @@ function App() {
               path="/contacts"
               element={
                 <PrivateRoute>
-                  <Application />
+                  <ContactsView />
                 </PrivateRoute>
               }
             />

@@ -9,7 +9,6 @@ import Container from '../Container/Container';
 import { Outlet, NavLink } from 'react-router-dom';
 import { Suspense } from 'react';
 import { Loader } from '../Loader/Loader';
-import ContactsView from '../ContactsView/ContactsView';
 
 export default function AppBar() {
   const isLoggedIn = useSelector(getLoggedIn);
